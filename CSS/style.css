@@ -1,0 +1,592 @@
+@import url(fonts.css);
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #0d0d2b;
+}
+
+.container {
+  max-width: 1220px;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav{
+  position: static;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 14px;
+  padding-top: 66px;
+}
+
+.logo__title {
+  /* padding-top: 6px; */
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: "Rubik-Regular", sans-serif;
+}
+
+.ul__item {
+  display: flex;
+  text-decoration: none;
+  column-gap: 32px;
+  font-family: "Rubik-Regular";
+  list-style: none;
+}
+
+.ul__list {
+  color: #ffffff;
+  padding-top: 72px;
+  transition: 0.5s;
+}
+
+.reg {
+  border: 1px solid #3671e9;
+  background: #3671e9;
+  border-radius: 32px;
+  width: 130px;
+  height: 52px;
+  top: -8px;
+  padding: 14px 32px;
+  color: #ffffff;
+  font-family: "Rubik-Regular";
+  margin-top: 60px;
+  transition: 0.5s;
+}
+
+.ul__list:hover {
+  transform: scale(1.2);
+}
+.double{
+  max-width: 1000px;
+}
+
+.left {
+  padding-top: 200px;
+}
+
+.header__content {
+  display: flex;
+}
+
+.left__title {
+  font-family: "Rubik-Bold";
+  font-size: 64px;
+  line-height: 76px;
+  color: #ffffff;
+  max-width: 888px;
+  height: 228px;
+  padding-bottom: 24px;
+}
+
+.left__subtitle {
+  font-family: "Rubik-Regular";
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  width: 435px;
+  height: 56px;
+  padding-bottom: 92px;
+  padding-top: 24px;
+}
+
+.b {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 32px;
+}
+
+.img {
+  position: absolute;
+  left: 391px;
+  top: 437.86px;
+  z-index: -1;
+}
+
+.crd {
+  display: flex;
+  padding-top: 239px;
+  column-gap: 24px;
+}
+
+.crd__div {
+  display: flex;
+  flex-direction: column;
+}
+
+.crd__title {
+  font-family: "Rubik-Bold";
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.crd__sub {
+  font-family: "Rubik-Regular";
+  line-height: 28px;
+  color: #e0e0e0;
+  width: 230px;
+  height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.mln {
+  display: flex;
+  column-gap: 99px;
+}
+
+.r {
+  width: 80px;
+  height: 80px;
+}
+
+.scr__content {
+  display: flex;
+  column-gap: 128px;
+  row-gap: 30px;
+}
+
+.scr__left {
+  padding-top: 230px;
+}
+
+.rightd {
+  padding-top: 250px;
+  width: 480px;
+  height: 318.89px;
+}
+
+span {
+  font-size: 40px;
+}
+
+.left__titl {
+  padding-bottom: 4px;
+  font-family: "Rubik-Bold";
+  font-size: 55px;
+  line-height: 76px;
+  color: #ffffff;
+  width: 588px;
+
+  padding-bottom: 4px;
+}
+
+.xa {
+  width: 408px;
+  height: 83.96px;
+  padding-bottom: 130px;
+}
+
+
+
+
+.earn{
+ 
+}
+
+
+.earn__content{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.top{
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  padding-top: 200px;
+
+}
+
+
+.earn__title{
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family:'Rubik-Bold' ;
+  padding-bottom: 24px;
+  
+}
+
+.earn__subtitle{
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #E0E0E0;
+  font-family:'Rubik-Regular' ; 
+}
+
+
+.bottom{
+  padding-top: 64px;
+  background: #fff  ;
+  position: relative;
+  width: 942px;
+  height: 216px;
+  margin-top: 64px;
+  border-radius: 16px;
+  display: flex;
+  margin: 64px auto;
+
+}
+
+.bottom__content{
+ position: absolute;
+  background: #fff;
+  padding-left: 48px;
+}
+
+
+
+
+.bot{
+  font-family:'Rubik-Medium' ;
+  line-height: 150%; 
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #3671E9;
+  font-size: 16px;
+  background: #fff;
+ 
+}
+
+
+.bott{
+color: #0D0D2B;
+background: #fff;
+font-family:'Rubik-Bold' ;
+padding-top: 16px;
+font-size: 32px;
+line-height: 150%;
+padding-bottom: 4px;
+}
+
+
+span__1{
+ color: #3671E9;
+ background: #fff;
+font-family:'Rubik-Bold' ;
+padding-top: 16px;
+font-size: 32px;
+line-height: 150%;
+}
+
+.bot__subtitle{
+  font-family:'Rubik-Regular' ;
+  font-size: 16px;
+  line-height: 28px;  
+  letter-spacing: 0.01em;
+  background: #fff;
+  
+  color: #828282;
+}
+
+.type{
+  background: white;
+  width: 100%;
+height: 1033px;
+}
+
+
+.type__title{
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #0D0D2B;
+  font-family:'Rubik-Bold' ;
+
+}
+
+.type{
+  margin: 0 auto;
+}
+
+
+.invest__content{
+  padding-top: 90px;
+  display: flex;
+  gap: 146px;
+  align-items: center;
+}
+
+.invest__left-content{
+  max-width: 454px;
+  height: 219px;
+}
+
+.invest__title{
+  font-size: 32px;
+  color: white;
+  font-family:'Rubik-Bold' ;
+}
+
+
+.invest__subtitle{
+  font-family:'Rubik-Regular' ;
+  color: white;
+  max-width: 408px
+  ;
+  height: 58px;
+  padding-top: 24px;
+}
+.invest__right-content{
+  margin-right: -100px;
+}
+
+.invest__button{
+  border: 1px solid #3671e9;
+  background: #3671e9;
+  border-radius: 32px;
+  width: 162px;
+  height: 52px;
+  top: -8px;
+  padding: 14px 32px;
+  color: #ffffff;
+  font-family: "Rubik-Regular";
+  margin-top: 60px;
+  transition: 0.5s;
+}
+
+
+
+
+.coin{
+  background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+height: 890px;
+margin-top: -100px;
+
+
+}
+
+
+
+.coin__content{
+padding-top: 100px;
+margin: 0 auto;
+width: 100%;
+}
+
+
+.coin__title{
+  font-size: 40px;
+  font-family:'Rubik-Bold' ;
+  color: #0D0D2B;
+  width: 741px;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.coin__carts-content{
+  display: flex;
+  gap: 45px;
+  padding-top: 64px;
+  display: flex;
+  
+}
+
+.coin__cart{
+  width: 370px;
+  height: 477px;
+  border-radius: 16px;
+  background: #fff;
+  
+ 
+   display: flex; 
+   align-items: center; 
+  border-radius: 16px;
+   justify-content: center; 
+
+ 
+  flex-direction: column;
+  margin-bottom: 100px;
+transition: .2s ease background-color,.2s ease color;
+  
+}
+
+.coin__cart:hover{
+  background-color: #2B076E;
+  color: white;
+}
+
+
+.coin__img{
+  width: 80px;
+  height: 80px; 
+  margin-bottom: 48px;
+}
+
+.coin__cart-title{
+  font-size: 32px;
+  font-family:'Rubik-Bold' ;
+  display: flex;
+  gap: 8px
+  ;
+  text-align: center; 
+}
+
+.coin__span{
+  font-size: 18px;
+  font-family:'Rubik-Medium' ;
+  color: #BDBDBD;
+  text-align: center; 
+}
+
+.coin__subtitle{
+  color: #828282;
+  font-family:'Rubik-Regular' ;
+  line-height: 28px;
+  width: 322px;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.coin__cart:hover .coin__subtitle{
+  color: white;
+}
+
+.coin__button{
+ 
+ 
+  background: white;
+  border-radius: 32px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  padding: 0 15px;
+  transition: .2s ease background-color;
+}
+
+.coin__cart:hover .coin__button{
+  
+  background-color: #3671E9;
+}
+
+.coin__button-h1{
+  font-size: 18px;
+  color: white;
+  line-height: 150%;
+  font-family:'Rubik-Medium' ;
+  width: 0;
+  
+  transition: .2s ease  width;
+}
+
+.coin__cart:hover .coin__button-h1{
+  width: 133px;
+}
+
+.coin__button-array{
+ background-image: url(../img/Arrow\ Right.png);
+ width: 64px;
+ height: 64px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: white;
+ border-radius: 100%;
+ border: 2px solid rgba(43, 7, 110, 0.2);
+ transform: scale(1);
+ transition: .2s ease  border, .2s ease  transform ;
+}
+
+
+.coin__cart:hover .coin__button-array{
+  border: 2px solid white;
+  transform: scale(0.5);
+}
+
+
+
+.footer{
+  margin-top: 100px;
+  background: 3671e9;
+  height: 200px;
+  
+  
+}
+
+
+
+.footer__content{
+  
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer__top{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer__left-content{
+display: flex;
+gap: 16px;
+align-items: center;
+}
+
+.footer__left-h1{
+  font-size: 18px;
+  color: white;
+}
+
+.chap{
+  font-size: 32px;
+  font-family:'Rubik-Medium' ;
+  line-height: 48px;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.footer__bottom{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.on{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+
+.footer__link{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
